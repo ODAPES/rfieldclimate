@@ -5,7 +5,7 @@
 #' @param public_key public key. Read by default from env variable `FC_PUBLIC_KEY`
 #' @param private_key private key. Read by default from env variable `FC_PRIVATE_KEY`
 #' @importFrom lubridate now
-#' @importFrom digest hmac
+#' @importFrom digest hmac. jj
 #' @importFrom httr add_headers
 #' @seealso https://api.fieldclimate.com/v2/docs/#authentication-hmac
 #' @export
